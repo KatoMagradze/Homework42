@@ -23,6 +23,7 @@ class HomeViewController: UIViewController {
         addCoffees()
         
         tableView.dataSource = self
+        tableView.separatorColor = .clear
         
     }
     

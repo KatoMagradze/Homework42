@@ -28,12 +28,14 @@ class ViewController: UIViewController {
         
         contentView.layer.cornerRadius = 46
         
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        //let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
-        homeViewController = storyboard.instantiateViewController(withIdentifier: "home_vc")
-        locationViewController = storyboard.instantiateViewController(withIdentifier: "location_vc")
-        coffeeViewController = storyboard.instantiateViewController(withIdentifier: "coffee_vc")
-        profileViewController = storyboard.instantiateViewController(withIdentifier: "profile_vc")
+        let otherStoryboard = UIStoryboard(name: "Other", bundle: nil)
+        
+        homeViewController = otherStoryboard.instantiateViewController(withIdentifier: "home_vc")
+        locationViewController = otherStoryboard.instantiateViewController(withIdentifier: "location_vc")
+        coffeeViewController = otherStoryboard.instantiateViewController(withIdentifier: "coffee_vc")
+        profileViewController = otherStoryboard.instantiateViewController(withIdentifier: "profile_vc")
         
         viewControllers = [homeViewController, locationViewController, coffeeViewController, profileViewController]
         

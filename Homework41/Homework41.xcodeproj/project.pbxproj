@@ -17,6 +17,7 @@
 		4180C0FE2498C65C000E19CF /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4180C0FD2498C65C000E19CF /* HomeCell.swift */; };
 		4180C10624990319000E19CF /* coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4180C10524990319000E19CF /* coffee.swift */; };
 		4180C10824990385000E19CF /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4180C10724990385000E19CF /* CoffeeViewModel.swift */; };
+		4180C10A24996299000E19CF /* Other.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4180C10924996299000E19CF /* Other.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4180C0FD2498C65C000E19CF /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 		4180C10524990319000E19CF /* coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coffee.swift; sourceTree = "<group>"; };
 		4180C10724990385000E19CF /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
+		4180C10924996299000E19CF /* Other.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Other.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		4180C0FF2498D19F000E19CF /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				4180C10924996299000E19CF /* Other.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4180C0F42498B767000E19CF /* LaunchScreen.storyboard in Resources */,
+				4180C10A24996299000E19CF /* Other.storyboard in Resources */,
 				4180C0F12498B767000E19CF /* Assets.xcassets in Resources */,
 				4180C0EF2498B764000E19CF /* Main.storyboard in Resources */,
 			);
